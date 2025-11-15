@@ -1,0 +1,10 @@
+# data_source_name,description
+Transaction Data,Historical and current transaction records
+Account Data,User account information and history
+Device Data,Information about devices used for transactions
+Behavioral Data,User activity and behavior patterns
+Authentication Logs,Login attempts and authentication events
+Geographic Data,Location information associated with transactions
+Network Connections,Relationships and connections between accounts
+
+

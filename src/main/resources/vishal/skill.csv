@@ -1,0 +1,29 @@
+# skill_name,category,description
+AI,Artificial Intelligence,Artificial Intelligence expertise
+Software Engineering,Software Development,Software development and engineering
+Python,Programming Languages,Programming language
+Java,Programming Languages,Programming language
+JavaScript,Programming Languages,Web programming language
+Machine Learning,AI/ML,Subset of AI
+Deep Learning,AI/ML,Neural network-based learning
+NLP,AI/ML,Natural Language Processing
+Computer Vision,AI/ML,Image analysis and understanding
+Robotics,AI/ML,Robotic systems and automation
+Cloud Computing,Infrastructure,Distributed computing
+DevOps,Operations,Development and operations practices
+Agile,Methodology,Software development methodology
+Microservices,Architecture,Software architecture pattern
+APIs,Architecture,Application Programming Interfaces
+Databases,Data,Data storage systems
+SQL,Data,Database query language
+NoSQL,Data,Non-relational databases
+TensorFlow,Tools,ML framework
+PyTorch,Tools,ML framework
+Neural Networks,Concepts,AI computational models
+Yoga,Wellness,Ancient practice of physical and mental discipline
+Hatha Yoga,Wellness,Physical yoga practice
+Vinyasa,Wellness,Flow-style yoga
+Meditation,Wellness,Mindfulness practice
+Pranayama,Wellness,Breath control techniques
+Asanas,Wellness,Yoga postures
+

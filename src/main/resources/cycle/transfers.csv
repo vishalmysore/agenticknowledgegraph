@@ -1,0 +1,9 @@
+# from_account_id,to_account_id,transaction_id,amount
+Account A,Account B,TX001,50000
+Account B,Account C,TX002,50000
+Account C,Account D,TX003,50000
+Account D,Account A,TX004,50000
+Account A,Account E,TX005,10000
+Account E,Account F,TX006,5000
+Account F,Account A,TX007,3000
+

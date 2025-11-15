@@ -1,0 +1,9 @@
+# algorithm_name,pattern_id,confidence
+DFS Algorithm,PAT001,95
+DFS Algorithm,PAT002,92
+Tarjan's SCC,PAT001,98
+Tarjan's SCC,PAT004,90
+Floyd-Warshall,PAT003,88
+Bellman-Ford,PAT002,85
+Floyd-Warshall,PAT005,91
+

@@ -1,0 +1,10 @@
+# detection_method_name,description
+Machine Learning,AI-based algorithms to detect unusual patterns
+Rule-Based Systems,Predefined rules to flag suspicious activity
+Network Analysis,Analyzing connections between accounts and transactions
+Anomaly Detection,Identifying behavior that deviates from normal patterns
+Behavioral Analysis,Studying user activity patterns and deviations
+Velocity Checking,Monitoring rapid succession of transactions
+Geolocation Monitoring,Tracking location-based transaction patterns
+
+

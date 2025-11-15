@@ -1,0 +1,27 @@
+# skill_name_1,skill_name_2,relationship_type
+AI,Machine Learning,includes
+Machine Learning,Deep Learning,includes
+Machine Learning,NLP,includes
+Machine Learning,Computer Vision,includes
+AI,Robotics,can be used in
+Python,Machine Learning,coded in
+Python,NLP,uses
+TensorFlow,Machine Learning,framework for
+PyTorch,Machine Learning,framework for
+Deep Learning,Neural Networks,uses
+Software Engineering,Cloud Computing,related to
+Software Engineering,DevOps,methodology
+Software Engineering,Agile,methodology
+Software Engineering,Microservices,architecture
+Software Engineering,APIs,builds
+Software Engineering,Databases,uses
+Databases,SQL,queried with
+Databases,NoSQL,includes
+Cloud Computing,DevOps,manages
+Yoga,Hatha Yoga,type
+Yoga,Vinyasa,type
+Yoga,Meditation,includes
+Yoga,Pranayama,includes
+Yoga,Asanas,includes
+Meditation,Pranayama,combined with
+

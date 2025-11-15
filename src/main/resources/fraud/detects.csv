@@ -1,0 +1,18 @@
+# detection_method_name,fraud_type_name,confidence
+Machine Learning,Account Takeover,85
+Machine Learning,Payment Fraud,90
+Machine Learning,Identity Theft,80
+Rule-Based Systems,Transaction Fraud,88
+Rule-Based Systems,Application Fraud,75
+Network Analysis,Account Takeover,92
+Network Analysis,Transaction Fraud,87
+Anomaly Detection,Payment Fraud,86
+Anomaly Detection,Identity Theft,84
+Behavioral Analysis,Identity Theft,82
+Behavioral Analysis,Account Takeover,79
+Velocity Checking,Payment Fraud,91
+Velocity Checking,Transaction Fraud,89
+Geolocation Monitoring,Account Takeover,81
+Geolocation Monitoring,Payment Fraud,83
+
+

@@ -1,0 +1,18 @@
+# detection_method_name,indicator_name
+Machine Learning,Unusual Time
+Machine Learning,Velocity Check
+Machine Learning,Amount Pattern
+Rule-Based Systems,Location Mismatch
+Rule-Based Systems,Failed Attempts
+Network Analysis,Common Attributes
+Network Analysis,Device Change
+Anomaly Detection,Unusual Time
+Anomaly Detection,Location Mismatch
+Behavioral Analysis,Dormant Account
+Behavioral Analysis,Device Change
+Velocity Checking,Velocity Check
+Velocity Checking,Amount Pattern
+Geolocation Monitoring,Location Mismatch
+Geolocation Monitoring,Unusual Time
+
+

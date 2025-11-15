@@ -1,0 +1,16 @@
+# transaction_id,account_id
+TX001,Account A
+TX001,Account B
+TX002,Account B
+TX002,Account C
+TX003,Account C
+TX003,Account D
+TX004,Account D
+TX004,Account A
+TX005,Account A
+TX005,Account E
+TX006,Account E
+TX006,Account F
+TX007,Account F
+TX007,Account A
+

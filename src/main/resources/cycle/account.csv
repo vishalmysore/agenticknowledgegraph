@@ -1,0 +1,8 @@
+# account_id,account_type,risk_score
+Account A,Business,0.92
+Account B,Business,0.85
+Account C,Personal,0.78
+Account D,Business,0.88
+Account E,Personal,0.45
+Account F,Personal,0.52
+

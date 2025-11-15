@@ -1,0 +1,17 @@
+# detection_method_name,data_source_name
+Machine Learning,Transaction Data
+Machine Learning,Behavioral Data
+Rule-Based Systems,Transaction Data
+Rule-Based Systems,Authentication Logs
+Network Analysis,Account Data
+Network Analysis,Network Connections
+Anomaly Detection,Behavioral Data
+Anomaly Detection,Transaction Data
+Behavioral Analysis,Behavioral Data
+Behavioral Analysis,Account Data
+Velocity Checking,Transaction Data
+Velocity Checking,Authentication Logs
+Geolocation Monitoring,Geographic Data
+Geolocation Monitoring,Device Data
+
+

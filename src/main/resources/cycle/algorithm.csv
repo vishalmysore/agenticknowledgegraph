@@ -1,0 +1,6 @@
+# algorithm_name,description,time_complexity
+DFS Algorithm,Depth-First Search for general cycle detection,O(V+E)
+Floyd-Warshall,All-pairs analysis and shortest cycles,O(V³)
+Tarjan's SCC,Strongly Connected Components detection,O(V+E)
+Bellman-Ford,Negative cycle detection in weighted graphs,O(VxE)
+

@@ -1,0 +1,8 @@
+# fraud_type_name,description
+Account Takeover,Unauthorized access and control of legitimate accounts
+Identity Theft,Using stolen personal information for fraudulent purposes
+Payment Fraud,Unauthorized or fake payment transactions
+Application Fraud,Using false information to open new accounts
+Transaction Fraud,Manipulating transactions for financial gain
+
+

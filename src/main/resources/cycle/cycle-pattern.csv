@@ -1,0 +1,7 @@
+# pattern_id,pattern_name,description,risk_level
+PAT001,Circular Money Flow,Money returned to originating account through intermediaries,HIGH
+PAT002,Money Laundering Loop,Illegal movement of funds to hide origin,CRITICAL
+PAT003,Credit Card Loop,Card usage in impossible travel scenarios,HIGH
+PAT004,Identity Theft Loop,Same identity across multiple fraudulent accounts,CRITICAL
+PAT005,Account Takeover Cycle,Unauthorized account access and manipulation,HIGH
+

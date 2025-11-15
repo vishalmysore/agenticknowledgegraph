@@ -1,0 +1,13 @@
+# location_name,location_type,habitat_quality
+Arctic (Breeding),Breeding Ground,0.95
+Greenland Stopover,Stopover Site,0.85
+Iceland Stopover,Stopover Site,0.88
+West Africa Coast,Stopover Site,0.78
+Antarctic (Wintering),Wintering Ground,0.92
+Alaska (Breeding),Breeding Ground,0.90
+China Stopover,Stopover Site,0.82
+New Zealand (Wintering),Wintering Ground,0.88
+North America (Breeding),Breeding Ground,0.87
+Central America Stopover,Stopover Site,0.80
+South America (Wintering),Wintering Ground,0.85
+

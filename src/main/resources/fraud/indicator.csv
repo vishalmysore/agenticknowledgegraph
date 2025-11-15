@@ -1,0 +1,11 @@
+# indicator_name,description
+Unusual Time,Transactions at unusual hours
+Velocity Check,Rapid succession of transactions
+Location Mismatch,Transactions from unexpected locations
+Common Attributes,Shared identifiers across multiple accounts
+Amount Pattern,Unusual transaction amounts or patterns
+Device Change,Login from new or unknown devices
+Failed Attempts,Multiple failed authentication attempts
+Dormant Account,Activity on previously inactive accounts
+
+

@@ -1,0 +1,23 @@
+# bird_species_name,factor_name,influence_strength
+Arctic Tern,Day Length,95
+Arctic Tern,Food Availability,92
+Arctic Tern,Temperature,85
+Arctic Tern,Magnetic Navigation,90
+Arctic Tern,Genetic Programming,98
+Arctic Tern,Wind Patterns,88
+Arctic Tern,Climate Change,75
+Bar-tailed Godwit,Day Length,90
+Bar-tailed Godwit,Food Availability,95
+Bar-tailed Godwit,Temperature,80
+Bar-tailed Godwit,Magnetic Navigation,92
+Bar-tailed Godwit,Genetic Programming,96
+Bar-tailed Godwit,Wind Patterns,85
+Bar-tailed Godwit,Climate Change,70
+Swainson's Hawk,Day Length,88
+Swainson's Hawk,Food Availability,90
+Swainson's Hawk,Temperature,82
+Swainson's Hawk,Magnetic Navigation,88
+Swainson's Hawk,Genetic Programming,94
+Swainson's Hawk,Wind Patterns,92
+Swainson's Hawk,Climate Change,72
+
