@@ -5,7 +5,7 @@ This project demonstrates how to build a complete **agentic knowledge graph syst
 Its native support for analytical graph workloads, vector features, and embedded deployment make it ideal for building agentic knowledge platforms that can run locally, on edge devices, or inside AI orchestration layers.
 
 
-<img src="graphs/graph.jpg" alt="Graph reference" style="max-width:400px; width:100%; height:auto;" />
+<img src="graph.jpg" alt="Graph reference" style="max-width:400px; width:100%; height:auto;" />
 
 
 
