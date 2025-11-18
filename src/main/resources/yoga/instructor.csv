@@ -1,6 +1,12 @@
-# instructor_name,experience_years
-Priya,8
-Arjun,12
-Maya,5
-Raj,10
+name,experience_years,specialization,certification
+Priya Sharma,12,Vinyasa,RYT-500 YACEP
+Rajesh Kumar,15,Ashtanga,RYT-500 Lead Trainer
+Sophia Chen,8,Yin,RYT-200 Yin Specialist
+Marcus Johnson,10,Hatha,RYT-500 Master Teacher
+Anita Patel,7,Kundalini,KRI Certified
+James Wilson,9,Bikram,Bikram Certified
+Lisa Anderson,6,Restorative,RYT-200 Restorative Yoga
+David Kumar,11,Power Yoga,NASM Certified
+Emma Rodriguez,5,Yin-Yang,RYT-200 Hybrid Specialist
+Michael Brown,14,Ashtanga,RYT-500 Advanced
 

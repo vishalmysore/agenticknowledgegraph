@@ -1,0 +1,37 @@
+from_id,to_id,engagement_level
+Warrior I,Legs,9
+Warrior I,Core,7
+Plank,Core,10
+Plank,Shoulders,8
+Downward Dog,Shoulders,8
+Triangle,Hamstrings,8
+Pigeon,Hips,10
+Child Pose,Hips,6
+Lotus,Hips,9
+Headstand,Shoulders,10
+Tree Pose,Legs,7
+Cobra,Spine,7
+Bridge,Glutes,9
+Camel,Chest,9
+Shoulderstand,Neck,8
+Mountain Pose,Legs,6
+Forward Fold,Hamstrings,9
+Warrior III,Legs,9
+Crow Pose,Wrists,8
+Boat Pose,Core,10
+Chair Pose,Quadriceps,9
+Goddess Pose,Inner Thighs,9
+Half Moon,Legs,8
+Wheel,Chest,10
+Corpse Pose,Entire Body,1
+Warrior II,Legs,8
+Triangle,Spine,7
+Pigeon,Inner Thighs,9
+Camel,Shoulders,8
+Headstand,Core,9
+Shoulderstand,Upper Back,9
+Bridge,Lower Back,8
+Boat Pose,Hip Flexors,8
+Chair Pose,Core,7
+Goddess Pose,Glutes,8
+

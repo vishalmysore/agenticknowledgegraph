@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yoga Knowledge Graph</title>
+    <meta name="api-base-url" content="">
+    <title>VidyaAstra - Yoga Knowledge Graph</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="/api-config.js"></script>
     <style>
         body {
             margin: 0;
@@ -12,6 +14,46 @@
             font-family: 'Arial', sans-serif;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             overflow: hidden;
+        }
+
+        .logo-header {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            z-index: 100;
+        }
+
+        .logo-header img {
+            height: 60px;
+            width: 60px;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 3px solid #00d9ff;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(0, 217, 255, 0.5);
+        }
+
+        .logo-header img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px rgba(0, 217, 255, 0.8);
+        }
+
+        .logo-text h1 {
+            margin: 0;
+            color: #00d9ff;
+            font-size: 1.8em;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+        }
+
+        .logo-text p {
+            margin: 0;
+            color: #a8dadc;
+            font-size: 0.85em;
+            font-style: italic;
         }
 
         #graph {
@@ -136,9 +178,21 @@
     </style>
 </head>
 <body>
+    <div class="logo-header">
+        <a href="https://github.com/vishalmysore/vidyaastra" target="_blank" title="Visit VidyaAstra on GitHub">
+            <img src="/images/vidyAAstra.svg" alt="VidyaAstra Logo" />
+        </a>
+        <div class="logo-text">
+            <h1>VidyaAstra</h1>
+            <p>Yoga Knowledge Graph</p>
+        </div>
+    </div>
+
     <div class="controls">
         <h2>Yoga Knowledge Graph</h2>
         <p style="font-size: 0.9em; margin-bottom: 15px;">Drag nodes to explore. Click for details.</p>
+        <input type="text" id="queryInput" placeholder="Ask about yoga..." style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 5px; border: none;">
+        <button onclick="executeAIQuery()" style="width: 100%; background: #00d9ff; margin-bottom: 10px;">▶ AI Query</button>
         <button onclick="resetSimulation()">Reset Layout</button>
         <button onclick="zoomToFit()">Zoom to Fit</button>
     </div>
@@ -157,6 +211,15 @@
     <div class="info-panel" id="infoPanel">
         <h3 id="nodeTitle"></h3>
         <p id="nodeDescription"></p>
+    </div>
+
+    <div class="info-panel" id="cypherPanel" style="bottom: auto; top: 100px; max-width: 400px;">
+        <h3>Cypher Query Result</h3>
+        <div id="cypherResult" style="max-height: 300px; overflow-y: auto; font-size: 0.85em;">
+            <p id="cypherLoading" style="display: none;">Loading...</p>
+            <pre id="cypherOutput"></pre>
+        </div>
+        <button onclick="document.getElementById('cypherPanel').style.display='none'" style="margin-top: 10px; width: 100%; background: #ff6b6b;">Close</button>
     </div>
 
     <svg id="graph"></svg>
@@ -420,6 +483,55 @@
             document.getElementById("nodeTitle").textContent = d.id;
             document.getElementById("nodeDescription").textContent = d.description;
             panel.style.display = "block";
+        }
+
+        async function executeAIQuery() {
+            const query = document.getElementById("queryInput").value;
+            if (!query.trim()) {
+                alert("Please enter a query");
+                return;
+            }
+
+            const cypherPanel = document.getElementById("cypherPanel");
+            const cypherLoading = document.getElementById("cypherLoading");
+            const cypherOutput = document.getElementById("cypherOutput");
+
+            cypherPanel.style.display = "block";
+            cypherLoading.style.display = "block";
+            cypherOutput.textContent = "";
+
+            try {
+                // Get API URL from environment or use default
+                const apiUrl = window.API_BASE_URL || "http://localhost:7860";
+                const response = await fetch(`${apiUrl}/api/yoga/graph/${encodeURIComponent(query)}`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                cypherLoading.style.display = "none";
+
+                if (data.cypherQuery) {
+                    cypherOutput.textContent = "Cypher Query:\n" + data.cypherQuery + "\n\nResults:\n" + JSON.stringify(data.result, null, 2);
+                } else {
+                    cypherOutput.textContent = JSON.stringify(data, null, 2);
+                }
+            } catch (error) {
+                cypherLoading.style.display = "none";
+                cypherOutput.textContent = "Error generating query: " + error.message + "\n\nMake sure the API server is running at: " + (window.API_BASE_URL || "http://localhost:7860");
+                console.error("Error:", error);
+            }
+        }
+
+        // Set API URL from window variable if available
+        if (typeof API_BASE_URL === 'undefined') {
+            window.API_BASE_URL = "http://localhost:7860";
         }
 
         function resetSimulation() {

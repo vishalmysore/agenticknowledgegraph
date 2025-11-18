@@ -11,4 +11,10 @@ import lombok.Setter;
 @NoArgsConstructor
 public class CypherResponse {
     private String query;
+    private String cypherQuery;
+    private Object result;
+
+    public CypherResponse(String query) {
+        this.query = query;
+    }
 }

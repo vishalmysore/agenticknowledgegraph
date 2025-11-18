@@ -1,7 +1,27 @@
-# pose_name,difficulty_level
-Downward Dog,2
-Warrior Pose,3
-Lotus,4
-Mountain Pose,1
-Headstand,5
+name,sanskrit_name,difficulty,description,target_time
+Downward Dog,Adho Mukha Svanasana,3,Fundamental inversion pose building foundation strength and flexibility,1-3 minutes
+Warrior I,Virabhadrasana I,4,Standing power pose building leg strength and focus,30-60 seconds
+Warrior II,Virabhadrasana II,4,Side-facing warrior stance opening hips and building endurance,30-60 seconds
+Triangle,Trikonasana,3,Standing stretch pose for full body elongation,30-60 seconds
+Child Pose,Balasana,2,Restorative resting pose for relaxation and breathing,1-5 minutes
+Lotus,Padmasana,5,Advanced seated meditation pose for deep hip opening,As long as comfortable
+Headstand,Sirsasana,8,Advanced inversion building core and shoulder strength,10-30 seconds
+Shoulderstand,Sarvangasana,7,Supported inversion stimulating thyroid and calming nervous system,30 seconds-5 minutes
+Plank,Phalakasana,4,Core strengthening pose building stability and endurance,30-60 seconds
+Tree Pose,Vrikshasana,3,Standing balance pose improving focus and stability,30-60 seconds each side
+Cobra,Bhujangasana,3,Gentle backbend opening chest and strengthening arms,15-30 seconds
+Bridge,Setu Bandha Sarvangasana,4,Backbend strengthener engaging glutes and core,30-60 seconds
+Pigeon,Eka Pada Rajakapotasana Prep,6,Deep hip opener releasing tension in hips,1-3 minutes each side
+Camel,Ustrasana,6,Deep backbend opening chest and shoulders,15-30 seconds
+Scorpion,Vrschikasana,9,Advanced backbend inversion requiring exceptional strength and flexibility,10-15 seconds
+Mountain Pose,Tadasana,2,Foundational standing pose building awareness and grounding,30-60 seconds
+Forward Fold,Uttanasana,3,Hamstring and spinal stretch for flexibility and relaxation,1-3 minutes
+Warrior III,Virabhadrasana III,7,Advanced balance pose building strength and coordination,30 seconds each side
+Crow Pose,Bakasana,7,Arm balance building upper body strength and focus,15-30 seconds
+Boat Pose,Navasana,5,Core strengthening pose building abdominal strength,15-60 seconds
+Chair Pose,Utkatasana,5,Standing pose building leg strength and power,30-60 seconds
+Goddess Pose,Deviasana,6,Wide-legged squat engaging legs core and inner thighs,30-60 seconds
+Half Moon,Ardha Chandrasana,6,Standing balance pose building strength and opening hips,30 seconds each side
+Wheel,Urdhva Mukha Svanasana,8,Deep backbend opening entire front body,15-30 seconds
+Corpse Pose,Savasana,1,Final relaxation pose for meditation and recovery,5-10 minutes
 

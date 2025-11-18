@@ -1,6 +1,12 @@
-# studio_name,capacity
-Zen Flow Studio,30
-Harmony Yoga,45
-Peaceful Mind,25
-Power Yoga Center,50
+name,city,capacity,opening_year
+Zenith Yoga,New York,50,2015
+Flow Studio,Los Angeles,40,2018
+Peaceful Mind,Chicago,35,2016
+Urban Asana,San Francisco,45,2017
+Lotus Center,Boston,30,2019
+Harmony Yoga,Denver,38,2014
+Serenity Space,Seattle,42,2020
+Chakra Wellness,Austin,36,2017
+Mindful Movement,Portland,32,2019
+Sacred Alignment,Miami,48,2016
 
